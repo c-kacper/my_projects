@@ -1,6 +1,6 @@
 # Page report
 Program generates a report from a log file. Script count requests
-for each URL, ignoring the protocol, ending slash and query string parameters. The log file path is readed from 
+for each URL, ignoring the protocol, ending slash and query string parameters. The log file path is read from 
 the command line argument and the generated report written to the standard output. 
 Every line of the result follows the CSV format:
 ```"<stripped url>",<requests count>```
